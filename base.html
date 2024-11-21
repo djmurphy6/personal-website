@@ -9,8 +9,87 @@
     <div style="text-align: center;">
         <h1>Dylan Murphy</h1>
         <p>University of Oregon</p>
-        <p>Class of 2026</p>
         <p>Computer Science</p>
+        <p>Class of 2026</p>
     </div>
 </body>
 </html>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    .ipod {
+        width: 300px;
+        height: 500px;
+        background-color: #f0f0f0;
+        border-radius: 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .screen {
+        width: 260px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wheel {
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .button {
+        width: 40px;
+        height: 40px;
+        background-color: #999;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .button.up {
+        top: 10px;
+    }
+    .button.down {
+        bottom: 10px;
+    }
+    .button.left {
+        left: 10px;
+    }
+    .button.right {
+        right: 10px;
+    }
+    .button.center {
+        width: 60px;
+        height: 60px;
+        background-color: #bbb;
+    }
+</style>
+<div class="ipod">
+    <div class="screen">
+        <h1>Dylan Murphy</h1>
+        <p>University of Oregon</p>
+        <p>Computer Science</p>
+        <p>Class of 2026</p>
+    </div>
+    <div class="wheel">
+        <div class="button up"></div>
+        <div class="button down"></div>
+        <div class="button left"></div>
+        <div class="button right"></div>
+        <div class="button center"></div>
+    </div>
+</div></div>
