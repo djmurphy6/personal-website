@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan Murphy - University of Oregon</title>
+    <style>
+        @font-face {
+            font-family: 'Chicago';
+            src: url('path/to/chicago-font.woff2') format('woff2'),
+                 url('path/to/chicago-font.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Chicago', sans-serif;
+        }
+        .header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
-    <div style="text-align: center;">
+<body>
+    <div class="header">
         <h1>Dylan Murphy</h1>
+    </div>
+    <div class="content">
         <p>University of Oregon</p>
         <p>Computer Science</p>
         <p>Class of 2026</p>
